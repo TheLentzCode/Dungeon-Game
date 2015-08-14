@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DungeonApplication</RootNamespace>
+    <AssemblyName>DungeonApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BossFight.cs" />
+    <Compile Include="ExpProgressBar.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameOver.cs" />
+    <Compile Include="HUD.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowChange.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonLibrary\DungeonLibrary.csproj">
+      <Project>{59c510e9-6981-4434-83c5-4ba0b86c3e6e}</Project>
+      <Name>DungeonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ItemLibrary\ItemLibrary.csproj">
+      <Project>{67d8a7ce-0984-435a-982f-037fb89da4af}</Project>
+      <Name>ItemLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MonsterLibrary\MonsterLibrary.csproj">
+      <Project>{24adf437-8814-4353-8910-f7fd4e209cf3}</Project>
+      <Name>MonsterLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpellLibrary\SpellLibrary.csproj">
+      <Project>{73292352-dc18-4e22-8958-7093e14fdb1e}</Project>
+      <Name>SpellLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WeaponLibrary\WeaponLibrary.csproj">
+      <Project>{37d03665-1c79-434b-9c3d-ac092d7310be}</Project>
+      <Name>WeaponLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="buyitem.wav" />
+    <Content Include="combattheme1.wav" />
+    <Content Include="deaththeme.wav" />
+    <Content Include="eqtheme.wav" />
+    <Content Include="fairydie.wav" />
+    <Content Include="fairysat.wav" />
+    <Content Include="fsg_atk.wav" />
+    <Content Include="fsg_dth.wav" />
+    <Content Include="fsg_idl.wav" />
+    <Content Include="gbn_atk.wav" />
+    <Content Include="gbn_dam.wav" />
+    <Content Include="gbn_dth.wav" />
+    <Content Include="gbn_idl.wav" />
+    <Content Include="gob_att.wav" />
+    <Content Include="gob_die.wav" />
+    <Content Include="gob_hit.wav" />
+    <Content Include="gob_idl.wav" />
+    <Content Include="gob_sat.wav" />
+    <Content Include="GuildHall.wav" />
+    <Content Include="levelup.wav" />
+    <Content Include="pixiedie.wav" />
+    <Content Include="pixiehit.wav" />
+    <Content Include="poknowledge.wav" />
+    <Content Include="potranq.wav" />
+    <Content Include="skelatt1.wav" />
+    <Content Include="skelatt2.wav" />
+    <Content Include="skel_die.wav" />
+    <Content Include="skel_hit.wav" />
+    <Content Include="skel_std.wav" />
+    <Content Include="spec_att.wav" />
+    <Content Include="spec_die.wav" />
+    <Content Include="spec_hit.wav" />
+    <Content Include="spec_idl.wav" />
+    <Content Include="spelhit1.wav" />
+    <Content Include="spelhit2.wav" />
+    <Content Include="spelhit3.wav" />
+    <Content Include="spell_1.wav" />
+    <Content Include="spell_2.wav" />
+    <Content Include="spell_3.wav" />
+    <Content Include="spell_4.wav" />
+    <Content Include="spell_5.wav" />
+    <Content Include="swing.wav" />
+    <Content Include="zomf_att.wav" />
+    <Content Include="zomf_die.wav" />
+    <Content Include="zom_att.wav" />
+    <Content Include="zom_die.wav" />
+    <Content Include="zom_idl1.wav" />
+    <Content Include="zom_idl2.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

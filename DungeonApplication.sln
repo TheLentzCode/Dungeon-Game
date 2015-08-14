@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonApplication", "DungeonApplication\DungeonApplication.csproj", "{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLibrary", "DungeonLibrary\DungeonLibrary.csproj", "{59C510E9-6981-4434-83C5-4BA0B86C3E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLibrary", "MonsterLibrary\MonsterLibrary.csproj", "{24ADF437-8814-4353-8910-F7FD4E209CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponLibrary", "WeaponLibrary\WeaponLibrary.csproj", "{37D03665-1C79-434B-9C3D-AC092D7310BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellLibrary", "SpellLibrary\SpellLibrary.csproj", "{73292352-DC18-4E22-8958-7093E14FDB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemLibrary", "ItemLibrary\ItemLibrary.csproj", "{67D8A7CE-0984-435A-982F-037FB89DA4AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0154041-4A0E-4DB8-B3F5-B76FCC3A9F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C510E9-6981-4434-83C5-4BA0B86C3E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C510E9-6981-4434-83C5-4BA0B86C3E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C510E9-6981-4434-83C5-4BA0B86C3E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C510E9-6981-4434-83C5-4BA0B86C3E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24ADF437-8814-4353-8910-F7FD4E209CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ADF437-8814-4353-8910-F7FD4E209CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ADF437-8814-4353-8910-F7FD4E209CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ADF437-8814-4353-8910-F7FD4E209CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D03665-1C79-434B-9C3D-AC092D7310BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D03665-1C79-434B-9C3D-AC092D7310BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D03665-1C79-434B-9C3D-AC092D7310BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D03665-1C79-434B-9C3D-AC092D7310BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73292352-DC18-4E22-8958-7093E14FDB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73292352-DC18-4E22-8958-7093E14FDB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73292352-DC18-4E22-8958-7093E14FDB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73292352-DC18-4E22-8958-7093E14FDB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D8A7CE-0984-435A-982F-037FB89DA4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D8A7CE-0984-435A-982F-037FB89DA4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D8A7CE-0984-435A-982F-037FB89DA4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D8A7CE-0984-435A-982F-037FB89DA4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
