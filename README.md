@@ -54,4 +54,5 @@ You could attack and flee basically. I added the following features:
   More to come later! Scaling needs looked at, more monsters, more loot..
   
   If you would like to download a working copy of this that is already compiled
+  <br />
   [Download](http://www.thelentzcode.com/files/DungeonQuest.zip)
