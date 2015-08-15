@@ -1818,11 +1818,8 @@ namespace DungeonApplication
                                                 Centered.Section(dungeonMenu);
                                                 Centered.Line(yourChoice);
                                             }
-                                            //TODO Catch the user choice
                                             string choice2 = Console.ReadLine().ToUpper();
-                                            //choice2 = choice2.Substring(0, 1);
-
-                                            //TODO Clear console after the input
+                                            
                                             Console.Clear();
 
                                             switch (choice2)

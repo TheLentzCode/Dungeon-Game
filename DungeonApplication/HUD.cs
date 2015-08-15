@@ -65,7 +65,7 @@ namespace DungeonApplication
 
             //Wizard Option
             string wiz1 = string.Format("║    Equipped Spell:      ║                                             ║                         ║");
-            string wiz2 = string.Format("║    {0,-15}      ║                                             ║                         ║", s1.Name);
+            string wiz2 = string.Format("║    {0,-15}     ║                                             ║                         ║", s1.Name);
             string wiz3 = string.Format("║    {0,-3}- {1,-3}  Damage     ║                                             ║                         ║", s1.MinDamage, s1.MaxDamage);
 
             //Cleric Option
@@ -221,7 +221,7 @@ namespace DungeonApplication
             Console.Write("\t\t\t\t    ");
             ExpProgressBar.DrawProgressBar(exp, maxExp, 20, '█');
             Console.WriteLine();
-            Centered.LineReturn("              "+player.Exp + "               "+player.MaxExp        );
+            //Centered.LineReturn("              "+player.Exp + "               "+player.MaxExp        ); //Just for testing
 
         }
 
